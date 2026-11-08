@@ -114,9 +114,10 @@ src/component/Button.css -> 버튼 색상과, 글자 크기 변경
 src/component/ButtonPanel.js -> 숫자 버튼 배치 수정 : 수정 전 789->456->123 에서 123->456->789 로 변경 삼항 연산자로 표현
 
 ## 수정전 
-![alt text](image-2.png)
+![alt text](image-3.png)
+
 ## 수정 후
-![alt text](image-1.png)
+![alt text](image-4.png)
 
 ### Deployment
 - 실제 접근 가능한 Vercel URL
