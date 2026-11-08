@@ -120,7 +120,7 @@ src/component/ButtonPanel.js -> 숫자 버튼 배치 수정 : 수정 전 789->45
 ![alt text](image-4.png)
 
 ### Deployment
-- 실제 접근 가능한 Vercel URL
+- 실제 접근 가능한 Vercel URL : https://calculator-2kd7.vercel.app/
 
 
 ### Weekly Review
