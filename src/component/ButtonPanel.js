@@ -1,8 +1,9 @@
-import Button from "./Button";
-import React from "react";
-import PropTypes from "prop-types";
-
 import "./ButtonPanel.css";
+
+import PropTypes from "prop-types";
+import React from "react";
+
+import Button from "./Button";
 
 export default class ButtonPanel extends React.Component {
   static propTypes = {
@@ -23,9 +24,9 @@ export default class ButtonPanel extends React.Component {
           <Button name="÷" clickHandler={this.handleClick} orange />
         </div>
         <div>
-          <Button name="7" clickHandler={this.handleClick} />
-          <Button name="8" clickHandler={this.handleClick} />
-          <Button name="9" clickHandler={this.handleClick} />
+          <Button name="1" clickHandler={this.handleClick} />
+          <Button name="2" clickHandler={this.handleClick} />
+          <Button name="3" clickHandler={this.handleClick} />
           <Button name="x" clickHandler={this.handleClick} orange />
         </div>
         <div>
@@ -35,9 +36,9 @@ export default class ButtonPanel extends React.Component {
           <Button name="-" clickHandler={this.handleClick} orange />
         </div>
         <div>
-          <Button name="1" clickHandler={this.handleClick} />
-          <Button name="2" clickHandler={this.handleClick} />
-          <Button name="3" clickHandler={this.handleClick} />
+          <Button name="7" clickHandler={this.handleClick} />
+          <Button name="8" clickHandler={this.handleClick} />
+          <Button name="9" clickHandler={this.handleClick} />
           <Button name="+" clickHandler={this.handleClick} orange />
         </div>
         <div>

@@ -1,8 +1,11 @@
-import React from "react";
-import Display from "./Display";
-import ButtonPanel from "./ButtonPanel";
-import calculate from "../logic/calculate";
-import "./App.css";
+import './App.css';
+
+import React from 'react';
+
+import calculate from '../logic/calculate';
+
+import ButtonPanel from './ButtonPanel';
+import Display from './Display';
 
 export default class App extends React.Component {
   state = {
@@ -17,8 +20,9 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <div className="component-app">
-        <Display value={this.state.next || this.state.total || "0"} />
+      <div className='component-app'>
+        <Display value={
+      this.state.next || this.state.total || '0'} />
         <ButtonPanel clickHandler={this.handleClick} />
       </div>
     );
