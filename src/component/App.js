@@ -19,11 +19,12 @@ export default class App extends React.Component {
   };
 
   render() {
+    const before = new URLSearchParams(window.location.search).get('version') === 'before';
     return (
-      <div className='component-app'>
+      <div className={`component-app${before ? ' version-before' : ''}`}>
         <Display value={
       this.state.next || this.state.total || '0'} />
-        <ButtonPanel clickHandler={this.handleClick} />
+        <ButtonPanel clickHandler={this.handleClick} before={before} />
       </div>
     );
   }
